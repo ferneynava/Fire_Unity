@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Mov_Player : MonoBehaviour
 {
     public string InputHorizaontal,InputVertical;
     public float speed;
     private float Vertical;
     private float Horizontal;
-    private float Gravity = 9.8f;
+    public float Gravity = 9.8f;
     private float VelocidadCaida; 
+    public float JumpForce;
 
     public CharacterController player;
     public Camera Cam;
@@ -42,7 +44,8 @@ public class Mov_Player : MonoBehaviour
            MovPlayer = MovPlayer * speed;
 
            setGravity();
-
+           saltarplayer();
+           
            player.Move(MovPlayer * Time.deltaTime);
 
 
@@ -60,6 +63,16 @@ public class Mov_Player : MonoBehaviour
      CamDerecha = CamDerecha.normalized; // Valor normalizado de transform.right
     }
 
+    void saltarplayer(){
+        
+        if(player.isGrounded && Input.GetButtonDown("Jump")){
+
+            VelocidadCaida = JumpForce;
+            MovPlayer.y = VelocidadCaida;
+
+        }
+    }
+
     void setGravity(){
 
         
@@ -72,4 +85,6 @@ public class Mov_Player : MonoBehaviour
         MovPlayer.y = VelocidadCaida;
         }
     }
+
+    
 }
