@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Mov_Camara : MonoBehaviour
 {
-[SerializeField] public string Inputmousex,Inputmousey;
-[SerializeField] public float sensibilidadx = 2f;
-[SerializeField] public float sensibilidady = 2f;
-[SerializeField] public Transform Player;
+ public string Inputmousex,Inputmousey;
+ public float sensibilidadx = 2f;
+ public float sensibilidady = 2f;
+ public Transform Player;
  private float mousex;
  private float mousey;
  private float xAxis;

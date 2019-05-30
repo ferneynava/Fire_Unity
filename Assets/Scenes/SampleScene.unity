@@ -85236,6 +85236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1486855273}
   - component: {fileID: 1486855272}
+  - component: {fileID: 1486855274}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -85273,9 +85274,27 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1532085092}
+  - {fileID: 1548551610}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1486855274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486855271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c23f3a5cfd211740aaaad9b09ba4e30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InputHorizaontal: Horizontal
+  InputVertical: Vertical
+  speed: 5
+  player: {fileID: 0}
+  Cam: {fileID: 1548551609}
 --- !u!43 &1494767210
 Mesh:
   m_ObjectHideFlags: 0
@@ -91880,6 +91899,7 @@ GameObject:
   - component: {fileID: 1548551609}
   - component: {fileID: 1548551608}
   - component: {fileID: 1548551607}
+  - component: {fileID: 1548551611}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -92005,12 +92025,29 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548551606}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 104.497, y: 49.92, z: 67.359}
+  m_LocalPosition: {x: 0.007003784, y: 0.9749985, z: 0.024002075}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1486855273}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1548551611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548551606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6667dc376249b64181948262829c5b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Inputmousex: Mouse X
+  Inputmousey: Mouse Y
+  sensibilidadx: 2
+  sensibilidady: 2
+  Player: {fileID: 1486855273}
 --- !u!4 &1556651929 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c764d1d0273921641a0ed3c8bb41e77c,

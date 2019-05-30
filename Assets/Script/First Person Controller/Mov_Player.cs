@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Mov_Player : MonoBehaviour
 {
-[SerializeField] public string InputHorizaontal, InputVertical;
-[SerializeField] public float speed;
+    public string InputHorizaontal,InputVertical;
+    public float speed;
     private float Vertical;
     private float Horizontal;
-[SerializeField] private float Gravity = 9.8f;
+    private float Gravity = 9.8f;
     private float VelocidadCaida; 
 
-[SerializeField] public CharacterController player;
- [SerializeField] public Camera Cam;
+    public CharacterController player;
+    public Camera Cam;
     private Vector3 MovPlayer;
     private Vector3 CamDelante;
     private Vector3 CamDerecha;
