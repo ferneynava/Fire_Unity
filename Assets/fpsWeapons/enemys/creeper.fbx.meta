@@ -1,0 +1,990 @@
+fileFormatVersion: 2
+guid: cef920e65e727974da51cca5d354b162
+timeCreated: 1473528549
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: chest
+    100002: chestcontrol
+    100004: //RootNode
+    100006: head
+    100008: headcontrol
+    100010: Joint_1
+    100012: Joint_1_2
+    100014: Joint_2
+    100016: Joint_2_2
+    100018: Joint_2_3
+    100020: Joint_2_4
+    100022: Joint_3
+    100024: Joint_3_2
+    100026: Joint_3_3
+    100028: Joint_3_4
+    100030: Joint_4
+    100032: Joint_4_2
+    100034: Joint_4_3
+    100036: Joint_4_4
+    100038: Joint_6
+    100040: Joint_6_2
+    100042: Joint_6_3
+    100044: Joint_6_4
+    100046: L_arm
+    100048: L_foot
+    100050: L_foot_Goal
+    100052: L_leg
+    100054: L_wrist
+    100056: L_wrist_Goal
+    100058: mesh
+    100060: R_arm
+    100062: R_foot
+    100064: R_foot_Goal
+    100066: R_leg
+    100068: R_wrist
+    100070: R_wrist_Goal
+    100072: tail
+    100074: tailcontrol
+    400000: chest
+    400002: chestcontrol
+    400004: //RootNode
+    400006: head
+    400008: headcontrol
+    400010: Joint_1
+    400012: Joint_1_2
+    400014: Joint_2
+    400016: Joint_2_2
+    400018: Joint_2_3
+    400020: Joint_2_4
+    400022: Joint_3
+    400024: Joint_3_2
+    400026: Joint_3_3
+    400028: Joint_3_4
+    400030: Joint_4
+    400032: Joint_4_2
+    400034: Joint_4_3
+    400036: Joint_4_4
+    400038: Joint_6
+    400040: Joint_6_2
+    400042: Joint_6_3
+    400044: Joint_6_4
+    400046: L_arm
+    400048: L_foot
+    400050: L_foot_Goal
+    400052: L_leg
+    400054: L_wrist
+    400056: L_wrist_Goal
+    400058: mesh
+    400060: R_arm
+    400062: R_foot
+    400064: R_foot_Goal
+    400066: R_leg
+    400068: R_wrist
+    400070: R_wrist_Goal
+    400072: tail
+    400074: tailcontrol
+    4300000: mesh
+    7400000: creeperidle
+    7400002: creeperwalk
+    7400004: creeperrun
+    7400006: creeperjump
+    7400008: creeperair
+    7400010: creeperland
+    7400012: creeperattack
+    7400014: creepergethit
+    9500000: //RootNode
+    13700000: mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: creeperidle
+      takeName: CINEMA_4D_Main
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: L_foot_Goal
+        weight: 1
+      - path: L_wrist_Goal
+        weight: 1
+      - path: mesh
+        weight: 1
+      - path: R_foot_Goal
+        weight: 1
+      - path: R_wrist_Goal
+        weight: 1
+      - path: tail
+        weight: 1
+      - path: tail/chest
+        weight: 1
+      - path: tail/chest/head
+        weight: 1
+      - path: tail/chest/L_arm
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3/L_wrist
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3/L_wrist/Joint_6_3
+        weight: 1
+      - path: tail/chest/L_leg
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4/L_foot
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4/L_foot/Joint_6
+        weight: 1
+      - path: tail/chest/R_arm
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4/R_wrist
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4/R_wrist/Joint_6_4
+        weight: 1
+      - path: tail/chest/R_leg
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2/R_foot
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2/R_foot/Joint_6_2
+        weight: 1
+      - path: tailcontrol
+        weight: 1
+      - path: tailcontrol/chestcontrol
+        weight: 1
+      - path: tailcontrol/chestcontrol/headcontrol
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creeperwalk
+      takeName: CINEMA_4D_Main
+      firstFrame: 40
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: L_foot_Goal
+        weight: 1
+      - path: L_wrist_Goal
+        weight: 1
+      - path: mesh
+        weight: 1
+      - path: R_foot_Goal
+        weight: 1
+      - path: R_wrist_Goal
+        weight: 1
+      - path: tail
+        weight: 1
+      - path: tail/chest
+        weight: 1
+      - path: tail/chest/head
+        weight: 1
+      - path: tail/chest/L_arm
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3/L_wrist
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3/L_wrist/Joint_6_3
+        weight: 1
+      - path: tail/chest/L_leg
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4/L_foot
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4/L_foot/Joint_6
+        weight: 1
+      - path: tail/chest/R_arm
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4/R_wrist
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4/R_wrist/Joint_6_4
+        weight: 1
+      - path: tail/chest/R_leg
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2/R_foot
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2/R_foot/Joint_6_2
+        weight: 1
+      - path: tailcontrol
+        weight: 1
+      - path: tailcontrol/chestcontrol
+        weight: 1
+      - path: tailcontrol/chestcontrol/headcontrol
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creeperrun
+      takeName: CINEMA_4D_Main
+      firstFrame: 80
+      lastFrame: 109
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: L_foot_Goal
+        weight: 1
+      - path: L_wrist_Goal
+        weight: 1
+      - path: mesh
+        weight: 1
+      - path: R_foot_Goal
+        weight: 1
+      - path: R_wrist_Goal
+        weight: 1
+      - path: tail
+        weight: 1
+      - path: tail/chest
+        weight: 1
+      - path: tail/chest/head
+        weight: 1
+      - path: tail/chest/L_arm
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3/L_wrist
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3/L_wrist/Joint_6_3
+        weight: 1
+      - path: tail/chest/L_leg
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4/L_foot
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4/L_foot/Joint_6
+        weight: 1
+      - path: tail/chest/R_arm
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4/R_wrist
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4/R_wrist/Joint_6_4
+        weight: 1
+      - path: tail/chest/R_leg
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2/R_foot
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2/R_foot/Joint_6_2
+        weight: 1
+      - path: tailcontrol
+        weight: 1
+      - path: tailcontrol/chestcontrol
+        weight: 1
+      - path: tailcontrol/chestcontrol/headcontrol
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creeperjump
+      takeName: CINEMA_4D_Main
+      firstFrame: 111
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: L_foot_Goal
+        weight: 1
+      - path: L_wrist_Goal
+        weight: 1
+      - path: mesh
+        weight: 1
+      - path: R_foot_Goal
+        weight: 1
+      - path: R_wrist_Goal
+        weight: 1
+      - path: tail
+        weight: 1
+      - path: tail/chest
+        weight: 1
+      - path: tail/chest/head
+        weight: 1
+      - path: tail/chest/L_arm
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3/L_wrist
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3/L_wrist/Joint_6_3
+        weight: 1
+      - path: tail/chest/L_leg
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4/L_foot
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4/L_foot/Joint_6
+        weight: 1
+      - path: tail/chest/R_arm
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4/R_wrist
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4/R_wrist/Joint_6_4
+        weight: 1
+      - path: tail/chest/R_leg
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2/R_foot
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2/R_foot/Joint_6_2
+        weight: 1
+      - path: tailcontrol
+        weight: 1
+      - path: tailcontrol/chestcontrol
+        weight: 1
+      - path: tailcontrol/chestcontrol/headcontrol
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creeperair
+      takeName: CINEMA_4D_Main
+      firstFrame: 126
+      lastFrame: 137
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: L_foot_Goal
+        weight: 1
+      - path: L_wrist_Goal
+        weight: 1
+      - path: mesh
+        weight: 1
+      - path: R_foot_Goal
+        weight: 1
+      - path: R_wrist_Goal
+        weight: 1
+      - path: tail
+        weight: 1
+      - path: tail/chest
+        weight: 1
+      - path: tail/chest/head
+        weight: 1
+      - path: tail/chest/L_arm
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3/L_wrist
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3/L_wrist/Joint_6_3
+        weight: 1
+      - path: tail/chest/L_leg
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4/L_foot
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4/L_foot/Joint_6
+        weight: 1
+      - path: tail/chest/R_arm
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4/R_wrist
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4/R_wrist/Joint_6_4
+        weight: 1
+      - path: tail/chest/R_leg
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2/R_foot
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2/R_foot/Joint_6_2
+        weight: 1
+      - path: tailcontrol
+        weight: 1
+      - path: tailcontrol/chestcontrol
+        weight: 1
+      - path: tailcontrol/chestcontrol/headcontrol
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creeperland
+      takeName: CINEMA_4D_Main
+      firstFrame: 140
+      lastFrame: 146
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: L_foot_Goal
+        weight: 1
+      - path: L_wrist_Goal
+        weight: 1
+      - path: mesh
+        weight: 1
+      - path: R_foot_Goal
+        weight: 1
+      - path: R_wrist_Goal
+        weight: 1
+      - path: tail
+        weight: 1
+      - path: tail/chest
+        weight: 1
+      - path: tail/chest/head
+        weight: 1
+      - path: tail/chest/L_arm
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3/L_wrist
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3/L_wrist/Joint_6_3
+        weight: 1
+      - path: tail/chest/L_leg
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4/L_foot
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4/L_foot/Joint_6
+        weight: 1
+      - path: tail/chest/R_arm
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4/R_wrist
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4/R_wrist/Joint_6_4
+        weight: 1
+      - path: tail/chest/R_leg
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2/R_foot
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2/R_foot/Joint_6_2
+        weight: 1
+      - path: tailcontrol
+        weight: 1
+      - path: tailcontrol/chestcontrol
+        weight: 1
+      - path: tailcontrol/chestcontrol/headcontrol
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creeperattack
+      takeName: CINEMA_4D_Main
+      firstFrame: 146
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: L_foot_Goal
+        weight: 1
+      - path: L_wrist_Goal
+        weight: 1
+      - path: mesh
+        weight: 1
+      - path: R_foot_Goal
+        weight: 1
+      - path: R_wrist_Goal
+        weight: 1
+      - path: tail
+        weight: 1
+      - path: tail/chest
+        weight: 1
+      - path: tail/chest/head
+        weight: 1
+      - path: tail/chest/L_arm
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3/L_wrist
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3/L_wrist/Joint_6_3
+        weight: 1
+      - path: tail/chest/L_leg
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4/L_foot
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4/L_foot/Joint_6
+        weight: 1
+      - path: tail/chest/R_arm
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4/R_wrist
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4/R_wrist/Joint_6_4
+        weight: 1
+      - path: tail/chest/R_leg
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2/R_foot
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2/R_foot/Joint_6_2
+        weight: 1
+      - path: tailcontrol
+        weight: 1
+      - path: tailcontrol/chestcontrol
+        weight: 1
+      - path: tailcontrol/chestcontrol/headcontrol
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creepergethit
+      takeName: CINEMA_4D_Main
+      firstFrame: 165
+      lastFrame: 177
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: L_foot_Goal
+        weight: 1
+      - path: L_wrist_Goal
+        weight: 1
+      - path: mesh
+        weight: 1
+      - path: R_foot_Goal
+        weight: 1
+      - path: R_wrist_Goal
+        weight: 1
+      - path: tail
+        weight: 1
+      - path: tail/chest
+        weight: 1
+      - path: tail/chest/head
+        weight: 1
+      - path: tail/chest/L_arm
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3/L_wrist
+        weight: 1
+      - path: tail/chest/L_arm/Joint_2_3/Joint_3_3/Joint_4_3/L_wrist/Joint_6_3
+        weight: 1
+      - path: tail/chest/L_leg
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4/L_foot
+        weight: 1
+      - path: tail/chest/L_leg/Joint_1/Joint_2/Joint_3/Joint_4/L_foot/Joint_6
+        weight: 1
+      - path: tail/chest/R_arm
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4/R_wrist
+        weight: 1
+      - path: tail/chest/R_arm/Joint_2_4/Joint_3_4/Joint_4_4/R_wrist/Joint_6_4
+        weight: 1
+      - path: tail/chest/R_leg
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2/R_foot
+        weight: 1
+      - path: tail/chest/R_leg/Joint_1_2/Joint_2_2/Joint_3_2/Joint_4_2/R_foot/Joint_6_2
+        weight: 1
+      - path: tailcontrol
+        weight: 1
+      - path: tailcontrol/chestcontrol
+        weight: 1
+      - path: tailcontrol/chestcontrol/headcontrol
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.7
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

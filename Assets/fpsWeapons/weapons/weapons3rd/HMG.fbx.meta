@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 0e66a20c1f0ca174d94365782efd0fe5
+timeCreated: 1454667122
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: aim
+    100002: base
+    100004: base_2
+    100006: bullet1
+    100008: bullet2
+    100010: bullet3
+    100012: bullet4
+    100014: bullet5
+    100016: bullet6
+    100018: bullet7
+    100020: bullet8
+    100022: bulletbase
+    100024: bullets
+    100026: clip
+    100028: end
+    100030: //RootNode
+    100032: Joint
+    100034: Joint_1
+    100036: Joint_2
+    100038: Joint_3
+    100040: Joint_4
+    100042: Joint_5
+    100044: Joint_6
+    100046: Joint_7
+    100048: lid
+    100050: loader
+    100052: mid
+    100054: Null_1
+    100056: Null_2
+    100058: Null_4
+    100060: Null_5
+    100062: Null_7
+    100064: Null_8
+    100066: trigger
+    400000: aim
+    400002: base
+    400004: base_2
+    400006: bullet1
+    400008: bullet2
+    400010: bullet3
+    400012: bullet4
+    400014: bullet5
+    400016: bullet6
+    400018: bullet7
+    400020: bullet8
+    400022: bulletbase
+    400024: bullets
+    400026: clip
+    400028: end
+    400030: //RootNode
+    400032: Joint
+    400034: Joint_1
+    400036: Joint_2
+    400038: Joint_3
+    400040: Joint_4
+    400042: Joint_5
+    400044: Joint_6
+    400046: Joint_7
+    400048: lid
+    400050: loader
+    400052: mid
+    400054: Null_1
+    400056: Null_2
+    400058: Null_4
+    400060: Null_5
+    400062: Null_7
+    400064: Null_8
+    400066: trigger
+    2300000: base
+    2300002: bullet1
+    2300004: bullet2
+    2300006: bullet3
+    2300008: bullet4
+    2300010: bullet5
+    2300012: bullet6
+    2300014: bullet7
+    2300016: bullet8
+    2300018: clip
+    2300020: lid
+    2300022: loader
+    2300024: trigger
+    3300000: base
+    3300002: bullet1
+    3300004: bullet2
+    3300006: bullet3
+    3300008: bullet4
+    3300010: bullet5
+    3300012: bullet6
+    3300014: bullet7
+    3300016: bullet8
+    3300018: clip
+    3300020: lid
+    3300022: loader
+    3300024: trigger
+    4300000: base
+    4300002: trigger
+    4300004: lid
+    4300006: loader
+    4300008: clip
+    4300010: bullet1
+    4300012: bullet2
+    4300014: bullet3
+    4300016: bullet4
+    4300018: bullet5
+    4300020: bullet6
+    4300022: bullet7
+    4300024: bullet8
+    7400000: Main
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

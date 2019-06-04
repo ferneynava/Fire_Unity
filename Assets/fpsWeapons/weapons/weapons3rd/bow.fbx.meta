@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: 308244b0c866c4142bc84895032d7112
+timeCreated: 1464490859
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arrow
+    100002: //RootNode
+    100004: bow_2
+    100006: bowroot
+    100008: cable1
+    100010: cable1down
+    100012: cable1up
+    100014: cable2
+    100016: cable2_1
+    100018: cable2down
+    100020: cable2up
+    100022: cablecontrol
+    100024: Joint_1
+    100026: Joint_1_2
+    100028: Joint_1_3
+    100030: Joint_1_4
+    100032: Joint_1_5
+    100034: Joint_1_6
+    100036: Joint_1_7
+    100038: Joint_1_8
+    100040: Joint_1_Goal
+    100042: Joint_1_Goal_2
+    100044: Joint_1_Goal_3
+    100046: Joint_1_Goal_4
+    100048: Joint_1_Goal_5
+    100050: Joint_1_Goal_6
+    100052: Joint_2
+    100054: Joint_2_2
+    100056: lowbase
+    100058: lowerbow1
+    100060: lowerbowtip
+    100062: lowerbowtip_Goal
+    100064: lowerwheel
+    100066: upbase
+    100068: upperbow1
+    100070: upperbowtip
+    100072: upperbowtip_Goal
+    100074: upperwheel
+    400000: arrow
+    400002: //RootNode
+    400004: bow_2
+    400006: bowroot
+    400008: cable1
+    400010: cable1down
+    400012: cable1up
+    400014: cable2
+    400016: cable2_1
+    400018: cable2down
+    400020: cable2up
+    400022: cablecontrol
+    400024: Joint_1
+    400026: Joint_1_2
+    400028: Joint_1_3
+    400030: Joint_1_4
+    400032: Joint_1_5
+    400034: Joint_1_6
+    400036: Joint_1_7
+    400038: Joint_1_8
+    400040: Joint_1_Goal
+    400042: Joint_1_Goal_2
+    400044: Joint_1_Goal_3
+    400046: Joint_1_Goal_4
+    400048: Joint_1_Goal_5
+    400050: Joint_1_Goal_6
+    400052: Joint_2
+    400054: Joint_2_2
+    400056: lowbase
+    400058: lowerbow1
+    400060: lowerbowtip
+    400062: lowerbowtip_Goal
+    400064: lowerwheel
+    400066: upbase
+    400068: upperbow1
+    400070: upperbowtip
+    400072: upperbowtip_Goal
+    400074: upperwheel
+    2300000: arrow
+    2300002: lowerwheel
+    2300004: upperwheel
+    3300000: arrow
+    3300002: lowerwheel
+    3300004: upperwheel
+    4300000: lowerwheel
+    4300002: upperwheel
+    4300004: cable2_1
+    4300006: arrow
+    4300008: bow_2
+    7400000: Main
+    9500000: //RootNode
+    13700000: bow_2
+    13700002: cable2_1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

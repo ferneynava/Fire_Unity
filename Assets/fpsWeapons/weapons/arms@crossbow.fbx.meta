@@ -1,0 +1,1227 @@
+fileFormatVersion: 2
+guid: 8e2703adddcfe864c8c697d3bc8913ef
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arms
+    100002: //RootNode
+    100004: base
+    100006: bow
+    100008: bowarchcontrol
+    100010: bowcontrol
+    100012: bowcontroltip
+    100014: crossbow
+    100016: Joint_10
+    100018: Joint_10_2
+    100020: Joint_11
+    100022: Joint_11_2
+    100024: Joint_12
+    100026: Joint_12_2
+    100028: Joint_13
+    100030: Joint_13_2
+    100032: Joint_2
+    100034: Joint_2_2
+    100036: Joint_3
+    100038: Joint_3_2
+    100040: Joint_3_3
+    100042: Joint_3_4
+    100044: Joint_4
+    100046: Joint_4_10
+    100048: Joint_4_2
+    100050: Joint_4_3
+    100052: Joint_4_4
+    100054: Joint_4_5
+    100056: Joint_4_6
+    100058: Joint_4_7
+    100060: Joint_4_8
+    100062: Joint_4_9
+    100064: Joint_5
+    100066: Joint_5_2
+    100068: Joint_6
+    100070: Joint_6_2
+    100072: Joint_7
+    100074: Joint_7_2
+    100076: Joint_8
+    100078: Joint_8_2
+    100080: L_arm
+    100082: L_arm_Pole
+    100084: L_bow
+    100086: L_bowmid
+    100088: L_bowmid_Goal
+    100090: L_bowtip
+    100092: L_bowtip_Goal
+    100094: L_elbow
+    100096: L_middle1
+    100098: L_middle2
+    100100: L_middle3
+    100102: L_pink1
+    100104: L_pink2
+    100106: L_pink3
+    100108: L_point1
+    100110: L_point2
+    100112: L_point3
+    100114: L_ring1
+    100116: L_ring2
+    100118: L_ring3
+    100120: L_thumb1
+    100122: L_thumb2
+    100124: L_thumb3
+    100126: L_wrist
+    100128: L_wrist_Goal
+    100130: lens
+    100132: loader
+    100134: Moon
+    100136: Physical_Sky
+    100138: R_arm
+    100140: R_arm_Pole
+    100142: R_bow
+    100144: R_bowmid
+    100146: R_bowmid_Goal
+    100148: R_bowtip
+    100150: R_bowtip_Goal
+    100152: R_elbow
+    100154: R_middle1
+    100156: R_middle2
+    100158: R_middle3
+    100160: R_pink1
+    100162: R_pink2
+    100164: R_pink3
+    100166: R_point1
+    100168: R_point2
+    100170: R_point3
+    100172: R_ring1
+    100174: R_ring2
+    100176: R_ring3
+    100178: R_thumb1
+    100180: R_thumb2
+    100182: R_thumb3
+    100184: R_wrist
+    100186: R_wrist_Goal
+    100188: root
+    100190: Shadow_Plane
+    100192: Sky_Null
+    100194: stick
+    100196: Sun
+    100198: trigger
+    400000: arms
+    400002: //RootNode
+    400004: base
+    400006: bow
+    400008: bowarchcontrol
+    400010: bowcontrol
+    400012: bowcontroltip
+    400014: crossbow
+    400016: Joint_10
+    400018: Joint_10_2
+    400020: Joint_11
+    400022: Joint_11_2
+    400024: Joint_12
+    400026: Joint_12_2
+    400028: Joint_13
+    400030: Joint_13_2
+    400032: Joint_2
+    400034: Joint_2_2
+    400036: Joint_3
+    400038: Joint_3_2
+    400040: Joint_3_3
+    400042: Joint_3_4
+    400044: Joint_4
+    400046: Joint_4_10
+    400048: Joint_4_2
+    400050: Joint_4_3
+    400052: Joint_4_4
+    400054: Joint_4_5
+    400056: Joint_4_6
+    400058: Joint_4_7
+    400060: Joint_4_8
+    400062: Joint_4_9
+    400064: Joint_5
+    400066: Joint_5_2
+    400068: Joint_6
+    400070: Joint_6_2
+    400072: Joint_7
+    400074: Joint_7_2
+    400076: Joint_8
+    400078: Joint_8_2
+    400080: L_arm
+    400082: L_arm_Pole
+    400084: L_bow
+    400086: L_bowmid
+    400088: L_bowmid_Goal
+    400090: L_bowtip
+    400092: L_bowtip_Goal
+    400094: L_elbow
+    400096: L_middle1
+    400098: L_middle2
+    400100: L_middle3
+    400102: L_pink1
+    400104: L_pink2
+    400106: L_pink3
+    400108: L_point1
+    400110: L_point2
+    400112: L_point3
+    400114: L_ring1
+    400116: L_ring2
+    400118: L_ring3
+    400120: L_thumb1
+    400122: L_thumb2
+    400124: L_thumb3
+    400126: L_wrist
+    400128: L_wrist_Goal
+    400130: lens
+    400132: loader
+    400134: Moon
+    400136: Physical_Sky
+    400138: R_arm
+    400140: R_arm_Pole
+    400142: R_bow
+    400144: R_bowmid
+    400146: R_bowmid_Goal
+    400148: R_bowtip
+    400150: R_bowtip_Goal
+    400152: R_elbow
+    400154: R_middle1
+    400156: R_middle2
+    400158: R_middle3
+    400160: R_pink1
+    400162: R_pink2
+    400164: R_pink3
+    400166: R_point1
+    400168: R_point2
+    400170: R_point3
+    400172: R_ring1
+    400174: R_ring2
+    400176: R_ring3
+    400178: R_thumb1
+    400180: R_thumb2
+    400182: R_thumb3
+    400184: R_wrist
+    400186: R_wrist_Goal
+    400188: root
+    400190: Shadow_Plane
+    400192: Sky_Null
+    400194: stick
+    400196: Sun
+    400198: trigger
+    2300000: base
+    2300002: bowcontrol
+    2300004: lens
+    2300006: loader
+    2300008: stick
+    2300010: trigger
+    3300000: base
+    3300002: bowcontrol
+    3300004: lens
+    3300006: loader
+    3300008: stick
+    3300010: trigger
+    4300000: bowcontrol
+    4300002: base
+    4300004: bow
+    4300006: lens
+    4300008: trigger
+    4300010: loader
+    4300012: stick
+    4300014: arms
+    7400000: crossbowfire
+    7400002: crossbowreload
+    7400004: crossbowready
+    7400006: crossbowhide
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: arms
+    13700002: bow
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arms
+    second: {fileID: 2100000, guid: c4e8326573f3f004b8d2f065fa913e99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: crossbow
+    second: {fileID: 2100000, guid: 6a74877d7b3d56341b908499050ca4bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scope1
+    second: {fileID: 2100000, guid: 1c6425ed3a6c9b243822a084a8079a86, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 1
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: crossbowfire
+      takeName: Main
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arms
+        weight: 1
+      - path: crossbow
+        weight: 1
+      - path: crossbow/base
+        weight: 1
+      - path: crossbow/bow
+        weight: 1
+      - path: crossbow/bowarchcontrol
+        weight: 1
+      - path: crossbow/bowarchcontrol/L_bowmid_Goal
+        weight: 1
+      - path: crossbow/bowarchcontrol/R_bowmid_Goal
+        weight: 1
+      - path: crossbow/bowcontrol
+        weight: 1
+      - path: crossbow/bowcontrol/bowcontroltip
+        weight: 1
+      - path: crossbow/bowcontrol/bowcontroltip/L_bowtip_Goal
+        weight: 1
+      - path: crossbow/bowcontrol/bowcontroltip/R_bowtip_Goal
+        weight: 1
+      - path: crossbow/L_bow
+        weight: 1
+      - path: crossbow/L_bow/Joint_2
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10/Joint_11
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10/Joint_11/Joint_12
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10/Joint_11/Joint_12/Joint_13
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10/Joint_11/Joint_12/Joint_13/L_bowtip
+        weight: 1
+      - path: crossbow/L_wrist_Goal
+        weight: 1
+      - path: crossbow/lens
+        weight: 1
+      - path: crossbow/loader
+        weight: 1
+      - path: crossbow/R_bow
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2/Joint_11_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2/Joint_11_2/Joint_12_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2/Joint_11_2/Joint_12_2/Joint_13_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2/Joint_11_2/Joint_12_2/Joint_13_2/R_bowtip
+        weight: 1
+      - path: crossbow/R_wrist_Goal
+        weight: 1
+      - path: crossbow/stick
+        weight: 1
+      - path: crossbow/trigger
+        weight: 1
+      - path: L_arm_Pole
+        weight: 1
+      - path: Physical_Sky
+        weight: 1
+      - path: Physical_Sky/Shadow_Plane
+        weight: 1
+      - path: Physical_Sky/Sky_Null
+        weight: 1
+      - path: Physical_Sky/Sky_Null/Moon
+        weight: 1
+      - path: Physical_Sky/Sky_Null/Sun
+        weight: 1
+      - path: R_arm_Pole
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/L_arm
+        weight: 1
+      - path: root/L_arm/L_elbow
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_4_4
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_4_6
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_4_3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_4_5
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3_3
+        weight: 1
+      - path: root/R_arm
+        weight: 1
+      - path: root/R_arm/R_elbow
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_4_8
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_4_10
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_4_7
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_4_9
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: crossbowreload
+      takeName: Main
+      firstFrame: 11
+      lastFrame: 75
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arms
+        weight: 1
+      - path: crossbow
+        weight: 1
+      - path: crossbow/base
+        weight: 1
+      - path: crossbow/bow
+        weight: 1
+      - path: crossbow/bowarchcontrol
+        weight: 1
+      - path: crossbow/bowarchcontrol/L_bowmid_Goal
+        weight: 1
+      - path: crossbow/bowarchcontrol/R_bowmid_Goal
+        weight: 1
+      - path: crossbow/bowcontrol
+        weight: 1
+      - path: crossbow/bowcontrol/bowcontroltip
+        weight: 1
+      - path: crossbow/bowcontrol/bowcontroltip/L_bowtip_Goal
+        weight: 1
+      - path: crossbow/bowcontrol/bowcontroltip/R_bowtip_Goal
+        weight: 1
+      - path: crossbow/L_bow
+        weight: 1
+      - path: crossbow/L_bow/Joint_2
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10/Joint_11
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10/Joint_11/Joint_12
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10/Joint_11/Joint_12/Joint_13
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10/Joint_11/Joint_12/Joint_13/L_bowtip
+        weight: 1
+      - path: crossbow/L_wrist_Goal
+        weight: 1
+      - path: crossbow/lens
+        weight: 1
+      - path: crossbow/loader
+        weight: 1
+      - path: crossbow/R_bow
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2/Joint_11_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2/Joint_11_2/Joint_12_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2/Joint_11_2/Joint_12_2/Joint_13_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2/Joint_11_2/Joint_12_2/Joint_13_2/R_bowtip
+        weight: 1
+      - path: crossbow/R_wrist_Goal
+        weight: 1
+      - path: crossbow/stick
+        weight: 1
+      - path: crossbow/trigger
+        weight: 1
+      - path: L_arm_Pole
+        weight: 1
+      - path: Physical_Sky
+        weight: 1
+      - path: Physical_Sky/Shadow_Plane
+        weight: 1
+      - path: Physical_Sky/Sky_Null
+        weight: 1
+      - path: Physical_Sky/Sky_Null/Moon
+        weight: 1
+      - path: Physical_Sky/Sky_Null/Sun
+        weight: 1
+      - path: R_arm_Pole
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/L_arm
+        weight: 1
+      - path: root/L_arm/L_elbow
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_4_4
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_4_6
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_4_3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_4_5
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3_3
+        weight: 1
+      - path: root/R_arm
+        weight: 1
+      - path: root/R_arm/R_elbow
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_4_8
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_4_10
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_4_7
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_4_9
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: crossbowready
+      takeName: Main
+      firstFrame: 87
+      lastFrame: 102
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arms
+        weight: 1
+      - path: crossbow
+        weight: 1
+      - path: crossbow/base
+        weight: 1
+      - path: crossbow/bow
+        weight: 1
+      - path: crossbow/bowarchcontrol
+        weight: 1
+      - path: crossbow/bowarchcontrol/L_bowmid_Goal
+        weight: 1
+      - path: crossbow/bowarchcontrol/R_bowmid_Goal
+        weight: 1
+      - path: crossbow/bowcontrol
+        weight: 1
+      - path: crossbow/bowcontrol/bowcontroltip
+        weight: 1
+      - path: crossbow/bowcontrol/bowcontroltip/L_bowtip_Goal
+        weight: 1
+      - path: crossbow/bowcontrol/bowcontroltip/R_bowtip_Goal
+        weight: 1
+      - path: crossbow/L_bow
+        weight: 1
+      - path: crossbow/L_bow/Joint_2
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10/Joint_11
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10/Joint_11/Joint_12
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10/Joint_11/Joint_12/Joint_13
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10/Joint_11/Joint_12/Joint_13/L_bowtip
+        weight: 1
+      - path: crossbow/L_wrist_Goal
+        weight: 1
+      - path: crossbow/lens
+        weight: 1
+      - path: crossbow/loader
+        weight: 1
+      - path: crossbow/R_bow
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2/Joint_11_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2/Joint_11_2/Joint_12_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2/Joint_11_2/Joint_12_2/Joint_13_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2/Joint_11_2/Joint_12_2/Joint_13_2/R_bowtip
+        weight: 1
+      - path: crossbow/R_wrist_Goal
+        weight: 1
+      - path: crossbow/stick
+        weight: 1
+      - path: crossbow/trigger
+        weight: 1
+      - path: L_arm_Pole
+        weight: 1
+      - path: R_arm_Pole
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/L_arm
+        weight: 1
+      - path: root/L_arm/L_elbow
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_4_4
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_4_6
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_4_3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_4_5
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3_3
+        weight: 1
+      - path: root/R_arm
+        weight: 1
+      - path: root/R_arm/R_elbow
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_4_8
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_4_10
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_4_7
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_4_9
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: crossbowhide
+      takeName: Main
+      firstFrame: 75
+      lastFrame: 87
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arms
+        weight: 1
+      - path: crossbow
+        weight: 1
+      - path: crossbow/base
+        weight: 1
+      - path: crossbow/bow
+        weight: 1
+      - path: crossbow/bowarchcontrol
+        weight: 1
+      - path: crossbow/bowarchcontrol/L_bowmid_Goal
+        weight: 1
+      - path: crossbow/bowarchcontrol/R_bowmid_Goal
+        weight: 1
+      - path: crossbow/bowcontrol
+        weight: 1
+      - path: crossbow/bowcontrol/bowcontroltip
+        weight: 1
+      - path: crossbow/bowcontrol/bowcontroltip/L_bowtip_Goal
+        weight: 1
+      - path: crossbow/bowcontrol/bowcontroltip/R_bowtip_Goal
+        weight: 1
+      - path: crossbow/L_bow
+        weight: 1
+      - path: crossbow/L_bow/Joint_2
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10/Joint_11
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10/Joint_11/Joint_12
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10/Joint_11/Joint_12/Joint_13
+        weight: 1
+      - path: crossbow/L_bow/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Joint_8/L_bowmid/Joint_10/Joint_11/Joint_12/Joint_13/L_bowtip
+        weight: 1
+      - path: crossbow/L_wrist_Goal
+        weight: 1
+      - path: crossbow/lens
+        weight: 1
+      - path: crossbow/loader
+        weight: 1
+      - path: crossbow/R_bow
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2/Joint_11_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2/Joint_11_2/Joint_12_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2/Joint_11_2/Joint_12_2/Joint_13_2
+        weight: 1
+      - path: crossbow/R_bow/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5_2/Joint_6_2/Joint_7_2/Joint_8_2/R_bowmid/Joint_10_2/Joint_11_2/Joint_12_2/Joint_13_2/R_bowtip
+        weight: 1
+      - path: crossbow/R_wrist_Goal
+        weight: 1
+      - path: crossbow/stick
+        weight: 1
+      - path: crossbow/trigger
+        weight: 1
+      - path: L_arm_Pole
+        weight: 1
+      - path: R_arm_Pole
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/L_arm
+        weight: 1
+      - path: root/L_arm/L_elbow
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_4_4
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_4_6
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_4_3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_4_5
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: root/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3_3
+        weight: 1
+      - path: root/R_arm
+        weight: 1
+      - path: root/R_arm/R_elbow
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_4_8
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_4_10
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_4_7
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_4_9
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: root/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
