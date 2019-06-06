@@ -27,12 +27,17 @@ public class Mov_Player : MonoBehaviour
     private Vector3 Mov;
     private Vector3 hitNormal; // La Normal de el sitio en el que nuestro Jugador este Golpeando  
     [SerializeField] private KeyCode runKey;
+    public AudioClip[] AudioWalkSpeed;
+    public AudioClip AudioJump;
+    public AudioSource Audio;
+
     
 
     // Start is called before the first frame update
     void Start()
     {
         player = GetComponent<CharacterController>();
+        Audio = GetComponent<AudioSource>();
         
     }
 
@@ -51,9 +56,14 @@ public class Mov_Player : MonoBehaviour
 
            MovPlayer = MovPlayer * speed;
 
+           if(Mov.x != 0.0f || Mov.z != 0.0f){
+               AuWalkSpeed();
+           }
+                    
            setGravity();
            saltarplayer();
            SetMovementSpeed();
+
            
            player.Move(MovPlayer * Time.deltaTime);
 
@@ -64,10 +74,14 @@ public class Mov_Player : MonoBehaviour
        
        if (Input.GetKey(runKey))
        {
-           speed = Mathf.Lerp(speed, runSpeed, Time.deltaTime * runBuildUpSpeed);
+           
+           speed = Mathf.Lerp(speed, runSpeed, Time.deltaTime * runBuildUpSpeed); 
+           
        }
        else{
+            
            speed = Mathf.Lerp(speed, walkSpeed, Time.deltaTime * runBuildUpSpeed);
+                
        }
     }
 
@@ -89,6 +103,8 @@ public class Mov_Player : MonoBehaviour
 
             VelocidadCaida = JumpForce;
             MovPlayer.y = VelocidadCaida;
+            Audio.clip = AudioJump;
+            Audio.Play();
 
         }
     }
@@ -124,5 +140,21 @@ public class Mov_Player : MonoBehaviour
         hitNormal = hit.normal; //La normal de lo que este chocando nuestro Jugador
 
     }
+
+    void AuWalkSpeed(){
+    
+
+           int n = Random.Range(1, AudioWalkSpeed.Length);
+    
+         Audio.clip = AudioWalkSpeed[n];
+         Audio.PlayOneShot(Audio.clip);
+
+         AudioWalkSpeed[n] = AudioWalkSpeed[0];
+         AudioWalkSpeed[0] = Audio.clip;
+           
+
+
+    }
+
 
 }
