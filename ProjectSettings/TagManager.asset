@@ -3,7 +3,32 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - AMrifle_1
+  - pistol
+  - M64
+  - bat
+  - blaster
+  - Fire
+  - carbine
+  - chainsaw
+  - CQ16
+  - crossbow
+  - flamer
+  - HMG
+  - knife
+  - minigun
+  - PDR
+  - pistol2
+  - pistol3
+  - pulser
+  - Qk
+  - revolver
+  - rpg8
+  - SCrifle
+  - shotgun
+  - shotgun2
+  - slugger
   layers:
   - Default
   - TransparentFX

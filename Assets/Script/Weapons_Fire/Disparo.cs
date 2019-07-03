@@ -5,13 +5,14 @@ using UnityEngine;
 public class Disparo : MonoBehaviour
 {
 
-    public float Rango = 100;
-    public GameObject Bala;
-
+    public float Rango = 100f;
+    public GameObject Bala; 
+    
 
     // Start is called before the first frame update
     void Start()
     {
+        
         
     }
 
@@ -34,7 +35,12 @@ public class Disparo : MonoBehaviour
         }
 
        
+           
     }
 
+   
+
+   
+         
    
 }
